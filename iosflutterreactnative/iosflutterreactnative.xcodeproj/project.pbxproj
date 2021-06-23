@@ -15,6 +15,9 @@
 		5264057B2683416100851DE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526405792683416100851DE8 /* LaunchScreen.storyboard */; };
 		526405862683416100851DE8 /* iosflutterreactnativeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526405852683416100851DE8 /* iosflutterreactnativeTests.swift */; };
 		526405912683416100851DE8 /* iosflutterreactnativeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526405902683416100851DE8 /* iosflutterreactnativeUITests.swift */; };
+		99A6EC5C402DEE4B10F31DB2 /* libPods-iosflutterreactnative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3D556EA954E859926D9B39 /* libPods-iosflutterreactnative.a */; };
+		E65ED450F3C80C8301F68455 /* libPods-iosflutterreactnativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E96F6A51499F9A3463F5CA3 /* libPods-iosflutterreactnativeTests.a */; };
+		F862EF60BC109C0591A22513 /* libPods-iosflutterreactnative-iosflutterreactnativeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C767EECCFEFA49BF6560D9 /* libPods-iosflutterreactnative-iosflutterreactnativeUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BFC99C69F9FE36784187DB4 /* Pods-iosflutterreactnative-iosflutterreactnativeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosflutterreactnative-iosflutterreactnativeUITests.debug.xcconfig"; path = "Target Support Files/Pods-iosflutterreactnative-iosflutterreactnativeUITests/Pods-iosflutterreactnative-iosflutterreactnativeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E96F6A51499F9A3463F5CA3 /* libPods-iosflutterreactnativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iosflutterreactnativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B534EB279598BE4300C46FB /* Pods-iosflutterreactnative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosflutterreactnative.debug.xcconfig"; path = "Target Support Files/Pods-iosflutterreactnative/Pods-iosflutterreactnative.debug.xcconfig"; sourceTree = "<group>"; };
+		36CDC0EAE2D0BA26AA1A6866 /* Pods-iosflutterreactnativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosflutterreactnativeTests.debug.xcconfig"; path = "Target Support Files/Pods-iosflutterreactnativeTests/Pods-iosflutterreactnativeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5264056B2683416000851DE8 /* iosflutterreactnative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosflutterreactnative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5264056E2683416000851DE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		526405702683416000851DE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		5264058C2683416100851DE8 /* iosflutterreactnativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosflutterreactnativeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		526405902683416100851DE8 /* iosflutterreactnativeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosflutterreactnativeUITests.swift; sourceTree = "<group>"; };
 		526405922683416100851DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C767EECCFEFA49BF6560D9 /* libPods-iosflutterreactnative-iosflutterreactnativeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iosflutterreactnative-iosflutterreactnativeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3D556EA954E859926D9B39 /* libPods-iosflutterreactnative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iosflutterreactnative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D14A705403D3B6C01993D5 /* Pods-iosflutterreactnative-iosflutterreactnativeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosflutterreactnative-iosflutterreactnativeUITests.release.xcconfig"; path = "Target Support Files/Pods-iosflutterreactnative-iosflutterreactnativeUITests/Pods-iosflutterreactnative-iosflutterreactnativeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7D7D7B16E29DE53737475F87 /* Pods-iosflutterreactnative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosflutterreactnative.release.xcconfig"; path = "Target Support Files/Pods-iosflutterreactnative/Pods-iosflutterreactnative.release.xcconfig"; sourceTree = "<group>"; };
+		C7177D3009A5EE38D3706169 /* Pods-iosflutterreactnativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosflutterreactnativeTests.release.xcconfig"; path = "Target Support Files/Pods-iosflutterreactnativeTests/Pods-iosflutterreactnativeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99A6EC5C402DEE4B10F31DB2 /* libPods-iosflutterreactnative.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E65ED450F3C80C8301F68455 /* libPods-iosflutterreactnativeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F862EF60BC109C0591A22513 /* libPods-iosflutterreactnative-iosflutterreactnativeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				526405842683416100851DE8 /* iosflutterreactnativeTests */,
 				5264058F2683416100851DE8 /* iosflutterreactnativeUITests */,
 				5264056C2683416000851DE8 /* Products */,
+				6A00CECB434BE4D1578E3F75 /* Pods */,
+				E19D5DF1C2ACEF3DD65DBE7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = iosflutterreactnativeUITests;
 			sourceTree = "<group>";
 		};
+		6A00CECB434BE4D1578E3F75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B534EB279598BE4300C46FB /* Pods-iosflutterreactnative.debug.xcconfig */,
+				7D7D7B16E29DE53737475F87 /* Pods-iosflutterreactnative.release.xcconfig */,
+				1BFC99C69F9FE36784187DB4 /* Pods-iosflutterreactnative-iosflutterreactnativeUITests.debug.xcconfig */,
+				76D14A705403D3B6C01993D5 /* Pods-iosflutterreactnative-iosflutterreactnativeUITests.release.xcconfig */,
+				36CDC0EAE2D0BA26AA1A6866 /* Pods-iosflutterreactnativeTests.debug.xcconfig */,
+				C7177D3009A5EE38D3706169 /* Pods-iosflutterreactnativeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E19D5DF1C2ACEF3DD65DBE7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C3D556EA954E859926D9B39 /* libPods-iosflutterreactnative.a */,
+				64C767EECCFEFA49BF6560D9 /* libPods-iosflutterreactnative-iosflutterreactnativeUITests.a */,
+				1E96F6A51499F9A3463F5CA3 /* libPods-iosflutterreactnativeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 526405952683416100851DE8 /* Build configuration list for PBXNativeTarget "iosflutterreactnative" */;
 			buildPhases = (
+				2D282C2DA5E4242D16F9B714 /* [CP] Check Pods Manifest.lock */,
+				2D2BE4AA62AD2B1B1882211F /* [CP-User] Run Flutter Build flutter_fol Script */,
 				526405672683416000851DE8 /* Sources */,
 				526405682683416000851DE8 /* Frameworks */,
 				526405692683416000851DE8 /* Resources */,
+				81806251A725DF2B1D6726C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 526405982683416100851DE8 /* Build configuration list for PBXNativeTarget "iosflutterreactnativeTests" */;
 			buildPhases = (
+				417C52A6C6C982E02F3C3620 /* [CP] Check Pods Manifest.lock */,
 				5264057D2683416100851DE8 /* Sources */,
 				5264057E2683416100851DE8 /* Frameworks */,
 				5264057F2683416100851DE8 /* Resources */,
@@ -170,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5264059B2683416100851DE8 /* Build configuration list for PBXNativeTarget "iosflutterreactnativeUITests" */;
 			buildPhases = (
+				D3E9F956DB0C351A4DD698E5 /* [CP] Check Pods Manifest.lock */,
 				526405882683416100851DE8 /* Sources */,
 				526405892683416100851DE8 /* Frameworks */,
 				5264058A2683416100851DE8 /* Resources */,
+				1F8CA970319BE9AC2318FFC5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +299,119 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F8CA970319BE9AC2318FFC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iosflutterreactnative-iosflutterreactnativeUITests/Pods-iosflutterreactnative-iosflutterreactnativeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iosflutterreactnative-iosflutterreactnativeUITests/Pods-iosflutterreactnative-iosflutterreactnativeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iosflutterreactnative-iosflutterreactnativeUITests/Pods-iosflutterreactnative-iosflutterreactnativeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D282C2DA5E4242D16F9B714 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iosflutterreactnative-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D2BE4AA62AD2B1B1882211F /* [CP-User] Run Flutter Build flutter_fol Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build flutter_fol Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_fol/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		417C52A6C6C982E02F3C3620 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iosflutterreactnativeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81806251A725DF2B1D6726C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iosflutterreactnative/Pods-iosflutterreactnative-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iosflutterreactnative/Pods-iosflutterreactnative-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iosflutterreactnative/Pods-iosflutterreactnative-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E9F956DB0C351A4DD698E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iosflutterreactnative-iosflutterreactnativeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		526405672683416000851DE8 /* Sources */ = {
@@ -433,6 +593,7 @@
 		};
 		526405962683416100851DE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B534EB279598BE4300C46FB /* Pods-iosflutterreactnative.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +612,7 @@
 		};
 		526405972683416100851DE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7D7B16E29DE53737475F87 /* Pods-iosflutterreactnative.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +631,7 @@
 		};
 		526405992683416100851DE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36CDC0EAE2D0BA26AA1A6866 /* Pods-iosflutterreactnativeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +653,7 @@
 		};
 		5264059A2683416100851DE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7177D3009A5EE38D3706169 /* Pods-iosflutterreactnativeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +675,7 @@
 		};
 		5264059C2683416100851DE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BFC99C69F9FE36784187DB4 /* Pods-iosflutterreactnative-iosflutterreactnativeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +695,7 @@
 		};
 		5264059D2683416100851DE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D14A705403D3B6C01993D5 /* Pods-iosflutterreactnative-iosflutterreactnativeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
